@@ -1,0 +1,26 @@
+ext {
+    versions = [
+            inject                    : "1",
+            springBoot                : "1.5.1.RELEASE",
+            springDM                  : "1.0.0.RELEASE",
+            springJMS                 : "4.3.6.RELEASE",
+            lombok                    : "1.8",
+            awsSqsMessaging           : "1.0.1",
+            swagger                   : "2.5.0",
+            restAssured               : "3.0.1",
+            jsonUnitFluent            : "1.15.0",
+            guava                     : "21.0",
+            comonsLang                : "3.4",
+            commonsIo                 : "2.5",
+            grayLog                   : "1.10.0",
+            jacksonDatatype           : "2.8.6",
+            failsafe                  : "1.0.3",
+            springDependencyManagement: "1.0.0.RELEASE",
+            findbugs                  : "3.0.1u2",
+            querydsl                  : "4.1.4",
+            apacheEmail               : "1.4",
+            freemarker                : "2.3.23",
+            jfreechart                : "1.0.19",
+            pojoTester                : "0.7.5",
+    ]
+}

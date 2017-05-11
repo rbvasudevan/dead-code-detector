@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: deadcodedetector
+
+  jpa:
+    show-sql: true
+    hibernate:
+        ddl-auto: update
+        naming:
+            implicit-strategy: com.devfactory.deadcodedetector.config.JpaNamingStrategy
+    properties:
+        hibernate:
+            dialect: org.hibernate.dialect.H2Dialect
+
+  jackson:
+    deserialization.READ_ENUMS_USING_TO_STRING: true
+    deserialization.FAIL_ON_UNKNOWN_PROPERTIES: false
+    serialization.WRITE_ENUMS_USING_TO_STRING: true
+    serialization.WRITE_DATES_AS_TIMESTAMPS: false
+    property-naming-strategy: SNAKE_CASE
+
+flyway:
+  baseline-on-migrate: true
+  validate-on-migrate: false
+
+server:
+    port: 8080
+
+endpoints:
+  health:
+    id: healthcheck
+    enabled: true
+    path: "/api/health"
+  shutdown:
+    enabled: false
+

@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:loc;INIT=CREATE SCHEMA IF NOT EXISTS "public"
+    testWhileIdle: true
+    validationQuery: SELECT 1
+
+dead-code-detector:
+  understand-home: C:/Program Files/SciTools/bin/pc-win64
+  local-base-location: /var/app/temp/
+  execution-command: "cmd /c start/wait und create -db %s -languages java add %s
+  settings -ReportNumberOfFiles Separate -Java_Version Java8 analyze report"

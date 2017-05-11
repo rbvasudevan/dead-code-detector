@@ -1,0 +1,7 @@
+ID                           HOSTNAME           STATUS  AVAILABILITY  MANAGER STATUS
+010moj9nlaek4g2xgv7di1h4q *  ip-10-224-128-100  Ready   Drain         Leader
+0grj6hhuqmdwxo4vpbp6c65vk    ip-10-224-135-157  Ready   Active        
+4cv1vgnolnc21sxk0lg06ehls    ip-10-224-103-69   Ready   Active        
+8ah0cwcmvdry14s97qllmmi83    ip-10-224-94-136   Ready   Active        
+abu0xadkqpqq4j1cf1youc183    ip-10-224-134-156  Ready   Active        
+dbp1hi98cxtjc20aqc5idapeo    ip-10-224-199-231  Ready   Active        

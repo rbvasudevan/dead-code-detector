@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+/.idea/
+/.gradle/
+/classes/
+
+generated-sources/
+.project
+.classpath
+.settings
